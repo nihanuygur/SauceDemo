@@ -1,15 +1,15 @@
-package swagLabs.tests;
+package com.swagLabs.tests;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.utilities.Driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-import utilities.BrowserUtils;
-import utilities.ConfigurationReader;
-import utilities.Driver;
+import com.utilities.BrowserUtils;
+import com.utilities.ConfigurationReader;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
