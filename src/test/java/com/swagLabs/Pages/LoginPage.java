@@ -1,9 +1,9 @@
-package swagLabs.Pages;
+package com.swagLabs.Pages;
 
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import utilities.ConfigurationReader;
+import com.utilities.ConfigurationReader;
 
 
 public class LoginPage extends BasePage {

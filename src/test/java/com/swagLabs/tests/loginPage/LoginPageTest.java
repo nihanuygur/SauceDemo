@@ -1,10 +1,10 @@
-package swagLabs.tests.loginPage;
+package com.swagLabs.tests.loginPage;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import swagLabs.Pages.LoginPage;
-import swagLabs.tests.TestBase;
-import utilities.ConfigurationReader;
+import com.swagLabs.Pages.LoginPage;
+import com.swagLabs.tests.TestBase;
+import com.utilities.ConfigurationReader;
 
 public class LoginPageTest extends TestBase {
     LoginPage loginPage = new LoginPage();

@@ -1,4 +1,4 @@
-package utilities;
+package com.utilities;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
